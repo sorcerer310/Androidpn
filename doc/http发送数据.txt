@@ -1,0 +1,15 @@
+POST /notification.do?action=send HTTP/1.1
+Accept: text/html, application/xhtml+xml, */*
+X-HttpWatch-RID: 56114-10082
+Referer: http://localhost:8080/notification.do
+Accept-Language: zh-CN
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+Content-Type: application/x-www-form-urlencoded
+Accept-Encoding: gzip, deflate
+Host: localhost:8080
+Content-Length: 86
+Connection: Keep-Alive
+Cache-Control: no-cache
+Cookie: JSESSIONID=50BCBA22A76FB2D21508174D5CBE2A08
+
+broadcast=N&username=32f902816e1c4bd5b174c81e2ce233b3&title=title&message=context&uri=
