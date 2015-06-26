@@ -43,6 +43,54 @@
 	</servlet-mapping>
 
 	<servlet>
+		<servlet-name>ugametime</servlet-name>
+		<servlet-class>com.bsu.servlet.Server_Time_Query</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ugametime</servlet-name>
+		<url-pattern>/ugametime</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>plc_receive_serial</servlet-name>
+		<servlet-class>com.bsu.servlet.PLC_ReceiveSerial</servlet-class>
+		<load-on-startup>5</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>plc_receive_serial</servlet-name>
+		<url-pattern>/plc_receive_serial</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>plc_reset_server_state</servlet-name>
+		<servlet-class>com.bsu.servlet.PLC_ReceiveSerial</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>plc_reset_server_state</servlet-name>
+		<url-pattern>/plc_reset_server_state</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>plc_send_serial</servlet-name>
+		<servlet-class>com.bsu.servlet.PLC_ReceiveSerial</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>plc_send_serial</servlet-name>
+		<url-pattern>/plc_send_serial</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>plc_test_commport</servlet-name>
+		<servlet-class>com.bsu.servlet.PLC_ReceiveSerial</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>plc_test_commport</servlet-name>
+		<url-pattern>/plc_test_commport</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
 		<servlet-name>dispatcher</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<load-on-startup>1</load-on-startup>

@@ -17,7 +17,7 @@ import com.bsu.system.tool.U;
  * 用于向PLC发送串口数据
  * Servlet implementation class PLC_SendSerial
  */
-@WebServlet("/PLC_SendSerial")
+//@WebServlet("/PLC_SendSerial")
 public class PLC_SendSerial extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     private CommPortInstance cpi = null;

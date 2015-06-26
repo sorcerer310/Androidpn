@@ -15,7 +15,6 @@ import com.bsu.system.tool.U;
 /**
  * 获得服务器时间
  */
-@WebServlet(name = "ugametime", urlPatterns = { "/ugametime" })
 public class Server_Time_Query extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

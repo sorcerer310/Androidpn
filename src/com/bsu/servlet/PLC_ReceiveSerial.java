@@ -22,7 +22,7 @@ import com.bsu.system.tool.U;
  * 其他servlce需要使用串口时只需要获得CommPortInstance的实例就行,不必再对串口进行初始化
  * Servlet implementation class PLC_ReceiveSerial
  */
-@WebServlet(description = "接收串口数据到程序中", urlPatterns = { "/PLC_ReceiveSerial" },loadOnStartup = 5)
+//@WebServlet(description = "接收串口数据到程序中", urlPatterns = { "/PLC_ReceiveSerial" },loadOnStartup = 5)
 public class PLC_ReceiveSerial extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
