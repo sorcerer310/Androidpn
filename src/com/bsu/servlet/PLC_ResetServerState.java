@@ -14,7 +14,7 @@ import com.bsu.system.tool.U;
 /**
  * Servlet implementation class PLC_ResetServerState
  */
-//@WebServlet(description = "重置一些服务器参数，可以通过手机访问重置", urlPatterns = { "/PLC_ResetServerState" })
+@WebServlet(description = "重置一些服务器参数，可以通过手机访问重置", urlPatterns = { "/PLC_ResetServerState" })
 public class PLC_ResetServerState extends HttpServlet {
 
 
