@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="PLCGameCenter2Library">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/comm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/org.json.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/WebRoot/WEB-INF/lib/org.json.jar!/" />
+    </SOURCES>
+  </library>
+</component>

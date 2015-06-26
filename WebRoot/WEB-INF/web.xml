@@ -34,6 +34,15 @@
 	</filter-mapping>
 
 	<servlet>
+		<servlet-name>helloservlet</servlet-name>
+		<servlet-class>com.bsu.test.HelloServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>helloservlet</servlet-name>
+		<url-pattern>/helloservlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
 		<servlet-name>dispatcher</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<load-on-startup>1</load-on-startup>
